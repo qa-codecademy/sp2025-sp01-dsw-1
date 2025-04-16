@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout - Furniro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo-container">
+          <img src="https://s3-alpha-sig.figma.com/img/2727/769b/a74736d502746301ed573ed8940fc322?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Hg8t~MuTCcvcuNbtsPlCUGTp~xcOCgwbW658y4Eep29UjmSTsLukMv9jbepr6mNKOnaukMH1~korW1YZVHjGBDFOuBPtdopY-woxRk-uT7A-Rh1T6N1omxYBwn-q1qzfRWqHMI0EIuZ0g8bW2rqrMKEvr9tNWeiXJR-rtUqaU3Ipqi8iq0upFxbLLhFI7-zw0k6GKSvpz~BqXgEN1AUfSnffzictgdECw9Nz2lAd98ky3fUUwiSbsglDij2Su3iZH7RG~g22Gu2yRJgLTVa7S0gSxzzwD-DB9Eqd1lfRQubVYH9zIfAtwUSb516pM7JBbTWyrbJL5rFW6aBAgLv-Fw__" alt="Furniro Logo"/>
+          <span class="brand-name">Furniro</span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Categories</a></li>
+          <li><a href="#">Contact</a></li>
+          <li class="icons">
+            <a href="#" aria-label="User account"><i class="fas fa-user"></i></a>
+            <a href="#" aria-label="Search"><i class="fas fa-search"></i></a>
+            <a href="#" aria-label="Wishlist"><i class="fas fa-heart"></i></a>
+            <a href="#" aria-label="Shopping cart"><i class="fas fa-shopping-cart"></i></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="hero">
+        <h1>Checkout</h1>
+      </div>
+    </header>
+
+    <main>
+      <section class="checkout-form">
+        <h2>Billing details</h2>
+        <form id="billingForm">
+          <div class="form-group">
+            <input type="text" placeholder="First Name" required />
+            <input type="text" placeholder="Last Name" required />
+          </div>
+          <input type="text" placeholder="Street address" required />
+          <input type="text" placeholder="Town / City" required />
+          <input type="text" placeholder="Phone" required />
+          <input type="email" placeholder="Email address" required />
+          <input type="text" placeholder="Preferred delivery day" />
+          <button type="submit">Check Out</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-column">
+          <h3>Furniro.</h3>
+          <p>400 University Drive Suite 200 Coral Gables,<br />FL 33134 USA</p>
+        </div>
+        <div class="footer-column">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="#" aria-label="Home">Home</a></li>
+            <li><a href="#" aria-label="Shop">Shop</a></li>
+            <li><a href="#" aria-label="About">About</a></li>
+            <li><a href="#" aria-label="Contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Help</h4>
+          <ul>
+            <li><a href="#" aria-label="Payment Options">Payment Options</a></li>
+            <li><a href="#" aria-label="Returns">Returns</a></li>
+            <li><a href="#" aria-label="Privacy Policies">Privacy Policies</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Newsletter</h4>
+          <input type="email" placeholder="Enter Your Email Address" aria-label="Email address for newsletter" />
+          <button aria-label="Subscribe to newsletter">SUBSCRIBE</button>
+        </div>
+      </div>
+      <p class="copyright">2025 Furniro. All rights reserved</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
