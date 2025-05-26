@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.header {
+  background: url("https://i.ibb.co/7jWqfZy/aboutus-bg.jpg") no-repeat center;
+  background-size: cover;
+  padding-bottom: 40px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 500;
+  align-items: center;
+  background: #d1edeb;
+  font-weight: 18px;
+  padding: 15px 20px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+  color: #2e2e2e;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-right: 20px;
+}
+
+.icons span {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.icons img {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.hero-image {
+  text-align: center;
+  margin-top: 60px;
+
+  background-image: url("src/assets/banner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.content {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.info-box {
+  background-color: #dfe9f4;
+  padding: 25px 30px;
+  margin: 30px 0;
+  border-radius: 6px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.image-section {
+  text-align: center;
+}
+
+.image-section img {
+  width: 787;
+  height: 360;
+  max-width: 700px;
+  border-radius: 5px;
+}
+.footer {
+  background: #fff;
+  padding: 40px 60px;
+  border-top: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-brand,
+.footer-links,
+.footer-help,
+.footer-newsletter {
+  flex: 1;
+  min-width: 160px;
+}
+
+.footer-logo {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-address {
+  font-size: 13px;
+  color: #555;
+}
+
+.footer-title {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.footer-links ul,
+.footer-help ul {
+  list-style: none;
+  font-weight: 600;
+  padding: 0;
+}
+
+.footer-links li,
+.footer-help li {
+  margin-bottom: 15px;
+}
+
+.footer-links a,
+.footer-help a {
+  text-decoration: none;
+  color: #333;
+  font-size: 13px;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.newsletter-input {
+  padding: 6px;
+  font-size: 13px;
+  width: 160px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+
+.newsletter-button {
+  padding: 6px 10px;
+  background-color: #333;
+  color: #fff;
+  font-size: 12px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.newsletter-button:hover {
+  background-color: #555;
+}
+hr {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  opacity: 0.5;
+  margin: 30px 0;
+}
+
+.footer-bottom {
+  margin-top: 30px;
+  text-align: left;
+  font-size: 12px;
+  color: #777;
+}
